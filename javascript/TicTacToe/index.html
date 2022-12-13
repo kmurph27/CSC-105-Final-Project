@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <!-- Create the container/gameboard -->
+    <main class="gameboard">
+        <!-- Add a section for title -->
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+        <!-- Adds a section for indicating which player is up -->
+        <section class="display">
+            Player <span class="display-player X">X</span>'s turn.
+        </section>
+        <!-- Creates the grid using div and 9 tiles using a tile class -->
+        <section class="grid">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        <!-- This is a spot to allow for game display messages -->
+        <section class="game_announcements"></section>
+        <!-- Creates a button to reset the match -->
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    </main>
+</body>
+
+</html>
