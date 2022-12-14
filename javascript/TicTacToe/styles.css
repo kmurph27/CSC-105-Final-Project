@@ -1,0 +1,94 @@
+/* Gets rid of the browsers generic margins and padding */
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Set the details for the gameboard */
+.gameboard {
+    background-color: black;
+    height: 100vh;
+    padding-top: 1px;
+}
+/* Set the details for the title */
+.title {
+    color: #8B0000;
+    text-align: center;
+    font-size: larger;
+    margin-top: 1%;
+}
+/* Set the details for the player display */
+.display {
+    color: #8B0000;
+    text-align: center;
+    font-size: large;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/* 
+   Creates the grid for the game utilizing the css grid settings
+   to set the col and row properties and make the grid equal.
+*/
+.grid {
+    margin: 0 auto;
+    display: grid;
+    /* W3 indiicated to use this for same size squares for the grid. */
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+/* 
+    This sets all the properties for each of the tic tac toe tiles and
+    will use the flexbox to keep things looking clean within the grid
+    container and set the cursor to allow for a clickable item.
+*/
+.tile {
+    border: 2px solid #8B0000;
+    min-width: 90px;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    cursor: pointer;
+    color: white;
+}
+.tile:focus{
+    cursor: none;
+}
+
+/* Sets the color for X's */
+.X {
+    color: green;
+}
+/* Sets the color for X's */
+.O {
+    color: blue;
+}
+/* Set the properties for the control class using flex for a clean look */
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+/* Sets all the properties for the reset button */
+#reset {
+    background-color: black;
+}
+/* Sets all the properties for the button */
+.controls button {
+    color: #8B0000;
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid #8B0000;
+    font-size: large;
+    cursor: pointer;
+}
+/* Sets the properties for the announcments */
+.game_announcements {
+    color: #8B0000;
+    text-align:center;
+    margin-top: 1%;
+}
