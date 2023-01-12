@@ -1,7 +1,6 @@
 ﻿body {
     background: #000;
     padding: 10px 50px;
-    margin-top: auto;
 }
 
 h1 {
@@ -11,6 +10,7 @@ h1 {
 }
 
 .container {
+    margin-top: 10px;
     margin: auto;
     border: white solid 5px;
     background-color: black;
