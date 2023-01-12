@@ -1,34 +1,21 @@
 body {
     font-family: 'Super Mario DS (Original)', 'Bauhaus 93', Broadway;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
+    margin: auto;
+    max-width: 1600px;
+    padding: 20px;
+    margin-top: auto;
 }
-
 h1 {
     font-family: 'Super Mario DS (Original)', 'Bauhaus 93', Broadway;
     text-align: center;
     margin-top: 60px;
+    width: 1600px;
 }
-
 h3 {
     font-family: 'Super Mario DS (Original)', 'Bauhaus 93', Broadway;
     text-align: center;
+    width: 1600px;
 }
-
-#baby-announcement {
-    display: block;
-    margin: auto;
-    width: 100%;
-}
-
-.container {
-    margin: auto;
-    max-width: 1600px;
-    padding: 30px 60px;
-}
-
 .topnav_ipage a {
     color: dodgerblue;
     text-align: center;
@@ -39,9 +26,8 @@ h3 {
 
 .topnav_ipage {
     background-color: white;
-    width: 100%;
+    width: 1600px;
     height: 40px;
-    left: 0;
     top: 20px;
     position: fixed;
     text-align: center;
@@ -102,10 +88,9 @@ h3 {
 
 .topnav_ppage {
     background-color: black;
-    width: 100%;
+    width: 1600px;
     height: 40px;
     top: 20px;
-    left: 0;
     position: fixed;
     text-align: center;
     line-height: 40px;
@@ -135,17 +120,16 @@ p {
     text-align: center;
     padding-top: 10px;
     line-height: 20px;
-    /* width: 1600px; */
+    width: 1600px;
 }
-
-p::first-letter {
+p::first-letter 
+{
     font-size: 150%;
 }
-
 footer {
     padding-top: 20px;
     text-align: center;
-    /* width: 1600px; */
+    width: 1600px;
 }
 
 label {
@@ -153,7 +137,7 @@ label {
     color: white;
 }
 
-#freeform_label {
+#freeform_label{
     vertical-align: top;
 }
 
@@ -163,7 +147,7 @@ legend {
 
 form {
     border: 3px solid black;
-    /* width: 1587px; */
+    width: 1587px;
     padding: 5px;
     background-color: #073400;
     text-align: center;
@@ -177,7 +161,7 @@ form {
     padding: 5px;
     background: #073400;
     word-spacing: 40px;
-    /* width: 1587px; */
+    width: 1587px;
     border: 3px solid black;
 }
 
@@ -222,7 +206,7 @@ form {
     }
 }
 
-label[for="Kyle"] {
+label[for="Kyle"]{
     color: white;
     font-size: 30px;
 }
