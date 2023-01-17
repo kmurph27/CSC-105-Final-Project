@@ -47,7 +47,7 @@ h3 {
     line-height: 40px;
     border-top: 4px solid dodgerblue;
     border-bottom: 4px solid dodgerblue;
-    flex-wrap: wrap;
+    word-wrap: break-word;
 }
 
 .topnav_ipage a:hover {
@@ -81,7 +81,7 @@ h3 {
     line-height: 40px;
     border-top: 4px solid black;
     border-bottom: 4px solid black;
-    flex-wrap: wrap;
+    word-wrap: inherit;
 }
 
 .topnav_cpage a:hover {
@@ -113,7 +113,7 @@ h3 {
     line-height: 40px;
     border-top: 4px solid #FF8C00;
     border-bottom: 4px solid #FF8C00;
-    flex-wrap: wrap;
+    word-wrap: normal;
 }
 
 .topnav_ppage a:hover {
