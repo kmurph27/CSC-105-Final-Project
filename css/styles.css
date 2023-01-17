@@ -1,20 +1,32 @@
 body {
     font-family: 'Super Mario DS (Original)', 'Bauhaus 93', Broadway;
-    margin: auto;
-    max-width: 1600px;
-    padding: 20px;
+    padding: 0;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
 }
 h1 {
     font-family: 'Super Mario DS (Original)', 'Bauhaus 93', Broadway;
     text-align: center;
     margin-top: 60px;
-    width: 1600px;
 }
 h3 {
     font-family: 'Super Mario DS (Original)', 'Bauhaus 93', Broadway;
     text-align: center;
-    width: 1600px;
 }
+
+#baby-announcement {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    max-width: 1600px;
+    padding: 30px 60px;
+}
+
 .topnav_ipage a {
     color: dodgerblue;
     text-align: center;
@@ -25,7 +37,8 @@ h3 {
 
 .topnav_ipage {
     background-color: white;
-    width: 1600px;
+    width: 100%;
+    left: 0;
     height: 40px;
     top: 20px;
     position: fixed;
@@ -57,7 +70,8 @@ h3 {
 
 .topnav_cpage {
     background-color: #073400;
-    width: 1600px;
+    width: 100%;
+    left: 0;
     height: 40px;
     top: 20px;
     position: fixed;
@@ -87,7 +101,8 @@ h3 {
 
 .topnav_ppage {
     background-color: black;
-    width: 1600px;
+    width: 100%;
+    left: 0;
     height: 40px;
     top: 20px;
     position: fixed;
@@ -120,7 +135,6 @@ p {
     text-align: center;
     padding-top: 10px;
     line-height: 20px;
-    width: 1600px;
 }
 p::first-letter 
 {
@@ -129,7 +143,6 @@ p::first-letter
 footer {
     padding-top: 20px;
     text-align: center;
-    width: 1600px;
 }
 
 label {
@@ -147,7 +160,6 @@ legend {
 
 form {
     border: 3px solid black;
-    width: 1587px;
     padding: 5px;
     background-color: #073400;
     text-align: center;
@@ -161,7 +173,6 @@ form {
     padding: 5px;
     background: #073400;
     word-spacing: 40px;
-    width: 1587px;
     border: 3px solid black;
 }
 
