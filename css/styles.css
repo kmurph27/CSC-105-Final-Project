@@ -42,13 +42,14 @@ h3 {
     background-color: white;
     max-width: 100%;
     left: 0;
-    height: 40px;
+    height: 60px;
     top: 20px;
     position: fixed;
     text-align: center;
-    line-height: 40px;
+    line-height: 20px;
     border-top: 4px solid dodgerblue;
     border-bottom: 4px solid dodgerblue;
+    display: inline-flex;
 }
 
 .topnav_ipage a:hover {
