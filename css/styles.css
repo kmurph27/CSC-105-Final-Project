@@ -34,11 +34,13 @@ h3 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    max-width: 100%;
+    left: 0;
 }
 
 .topnav_ipage {
     background-color: white;
-    width: 100%;
+    max-width: 100%;
     left: 0;
     height: 40px;
     top: 20px;
@@ -47,19 +49,22 @@ h3 {
     line-height: 40px;
     border-top: 4px solid dodgerblue;
     border-bottom: 4px solid dodgerblue;
-    word-wrap: break-word;
 }
 
 .topnav_ipage a:hover {
     background-color: white;
     color: dodgerblue;
     border: 2px solid dodgerblue;
+    max-width: 100%;
+    left: 0;
 }
 
 .topnav_ipage a.active {
     background-color: white;
     color: dodgerblue;
     border: 2px solid dodgerblue;
+    max-width: 100%;
+    left: 0;
 }
 
 .topnav_cpage a {
@@ -68,6 +73,8 @@ h3 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    max-width: 100%;
+    left: 0;
 }
 
 .topnav_cpage {
@@ -81,17 +88,20 @@ h3 {
     line-height: 40px;
     border-top: 4px solid black;
     border-bottom: 4px solid black;
-    word-wrap: inherit;
 }
 
 .topnav_cpage a:hover {
     background-color: black;
     color: white;
+    max-width: 100%;
+    left: 0;
 }
 
 .topnav_cpage a.active {
     background-color: black;
     color: white;
+    max-width: 100%;
+    left: 0;
 }
 
 .topnav_ppage a {
@@ -100,6 +110,8 @@ h3 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    max-width: 100%;
+    left: 0;
 }
 
 .topnav_ppage {
@@ -113,19 +125,22 @@ h3 {
     line-height: 40px;
     border-top: 4px solid #FF8C00;
     border-bottom: 4px solid #FF8C00;
-    word-wrap: normal;
 }
 
 .topnav_ppage a:hover {
     background-color: white;
     color: #FF8C00;
     border: 2px solid black;
+    max-width: 100%;
+    left: 0;
 }
 
 .topnav_ppage a.active {
     background-color: white;
     color: #FF8C00;
     border: 2px solid black;
+    max-width: 100%;
+    left: 0;
 }
 
 img {
