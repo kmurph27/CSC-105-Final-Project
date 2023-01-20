@@ -34,8 +34,6 @@ h3 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    max-width: 100%;
-    left: 0;
 }
 
 .topnav_ipage {
@@ -56,16 +54,12 @@ h3 {
     background-color: white;
     color: dodgerblue;
     border: 2px solid dodgerblue;
-    max-width: 100%;
-    left: 0;
 }
 
 .topnav_ipage a.active {
     background-color: white;
     color: dodgerblue;
     border: 2px solid dodgerblue;
-    max-width: 100%;
-    left: 0;
 }
 
 .topnav_cpage a {
@@ -74,8 +68,6 @@ h3 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    max-width: 100%;
-    left: 0;
 }
 
 .topnav_cpage {
@@ -95,15 +87,11 @@ h3 {
 .topnav_cpage a:hover {
     background-color: black;
     color: white;
-    max-width: 100%;
-    left: 0;
 }
 
 .topnav_cpage a.active {
     background-color: black;
     color: white;
-    max-width: 100%;
-    left: 0;
 }
 
 .topnav_ppage a {
@@ -112,8 +100,6 @@ h3 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    max-width: 100%;
-    left: 0;
 }
 
 .topnav_ppage {
@@ -134,16 +120,12 @@ h3 {
     background-color: white;
     color: #FF8C00;
     border: 2px solid black;
-    max-width: 100%;
-    left: 0;
 }
 
 .topnav_ppage a.active {
     background-color: white;
     color: #FF8C00;
     border: 2px solid black;
-    max-width: 100%;
-    left: 0;
 }
 
 img {
