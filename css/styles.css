@@ -1,3 +1,21 @@
+/*################################################################################*/
+/*# **Styles Page**                                                              #*/
+/*#     Description: This is the css style page for the portfolio, index, and    #*/
+/*#     contact page.                                                            #*/
+/*#                                                                              #*/
+/*#     File: gallery.css                                                        #*/
+/*#     Author : Kyle Murphy                                                     #*/
+/*#     Notes and Assistance: W3Schools, Brian hart                              #*/
+/*#                                                                              #*/
+/*################################################################################*/
+
+/* Imports the fonts I used for use throughout the website. */
+@font-face {
+    font-family: 'Super Mario DS (Original)';
+    src: "css/super-mario-ds-original.ttf";
+}
+
+/* Sets the parameters for the body. */
 body {
     font-family: 'Super Mario DS (Original)', 'Bauhaus 93', Broadway;
     padding: 0;
@@ -5,29 +23,36 @@ body {
     margin: 0;
     width: 100vw;
 }
+
+/* Sets the parameters for the main heading. */
 h1 {
     font-family: 'Super Mario DS (Original)', 'Bauhaus 93', Broadway;
     text-align: center;
     margin-top: 100px;
 }
+
+/* Sets the parameters for any of the sub headings. */
 h3 {
     font-family: 'Super Mario DS (Original)', 'Bauhaus 93', Broadway;
     text-align: center;
     margin-top: 10px;
 }
 
+/* Sets the display and size of the baby announcement image. */
 #baby-announcement {
     display: block;
     margin: auto;
     width: 100%;
 }
 
+/* Sets size and padding of the main container. */
 .container {
     margin: auto;
     max-width: 1600px;
     padding: 30px 60px;
 }
 
+/* Sets anchor parameters for the Index navbar links. */
 .topnav_ipage a {
     color: dodgerblue;
     text-align: center;
@@ -36,6 +61,7 @@ h3 {
     font-size: 20px;
 }
 
+/* Sets the parameters for the index page navbar, fixes it in place and center everything. */
 .topnav_ipage {
     background-color: white;
     width: 100vw;
@@ -51,18 +77,21 @@ h3 {
     justify-content: center;
 }
 
+/* Sets the parameters for how the index page navbar looks when you hover over a selection. */
 .topnav_ipage a:hover {
     background-color: white;
     color: dodgerblue;
     border: 2px solid dodgerblue;
 }
 
+/* Sets the parameters for how the index page navbar looks when you click on a selection. */
 .topnav_ipage a.active {
     background-color: white;
     color: dodgerblue;
     border: 2px solid dodgerblue;
 }
 
+/* Sets anchor parameters for the contact navbar links. */
 .topnav_cpage a {
     color: white;
     text-align: center;
@@ -71,6 +100,7 @@ h3 {
     font-size: 20px;
 }
 
+/* Sets the parameters for the contact page navbar, fixes it in place and center everything. */
 .topnav_cpage {
     background-color: #073400;
     width: 100vw;
@@ -86,16 +116,19 @@ h3 {
     justify-content: center;
 }
 
+/* Sets the parameters for how the contact page navbar looks when you hover over a selection. */
 .topnav_cpage a:hover {
     background-color: black;
     color: white;
 }
 
+/* Sets the parameters for how the contact page navbar looks when you click on a selection. */
 .topnav_cpage a.active {
     background-color: black;
     color: white;
 }
 
+/* Sets anchor parameters for the portfolio navbar links. */
 .topnav_ppage a {
     color: #FF8C00;
     text-align: center;
@@ -104,6 +137,7 @@ h3 {
     font-size: 20px;
 }
 
+/* Sets the parameters for the portfolio page navbar, fixes it in place and center everything. */
 .topnav_ppage {
     background-color: black;
     width: 100vw;
@@ -119,52 +153,64 @@ h3 {
     justify-content: center;
 }
 
+/* Sets the parameters for how the portfolio page navbar looks when you hover over a selection. */
 .topnav_ppage a:hover {
     background-color: white;
     color: #FF8C00;
     border: 2px solid black;
 }
 
+/* Sets the parameters for how the portfolio page navbar looks when you click on a selection. */
 .topnav_ppage a.active {
     background-color: white;
     color: #FF8C00;
     border: 2px solid black;
 }
 
+/* Creates a nice border and shadow for images. */
 img {
     border-radius: 25px;
     box-shadow: 10px 10px black;
     width: 100%;
 }
 
+/* Sets the parameters for how the main page paragraph section looks. */
 p {
     font-family: AmarilloUSAF, 'Agency FB', 'Times New Roman', Times, serif;
     text-align: center;
     padding-top: 10px;
     line-height: 20px;
 }
+
+/* Makes the first letter of a paragraph larger for nice look. */
 p::first-letter 
 {
     font-size: 150%;
 }
+
+/* Sets the parameters for the footer of the page. */
 footer {
     padding-top: 20px;
     text-align: center;
 }
 
+/* Sets the parameters for any of the labels used. */
 label {
     line-height: 40px;
     color: white;
 }
 
+/* Adds some flexibility and ability to add additional attributes to the labels. */
 #freeform_label{
     vertical-align: top;
 }
 
+/* Sets the color of the legend. */
 legend {
     color: white;
 }
 
+/* Creats a nice border around the form and sets the other basic parameters. */
 form {
     border: 3px solid black;
     padding: 5px;
@@ -172,10 +218,12 @@ form {
     text-align: center;
 }
 
+/* Allows for the use of a keyboard press on focus elements. */
 *:focus {
     outline: none;
 }
 
+/* Sets the parameters for the footer bar that contains the social media links. */
 .social-footer {
     padding: 5px;
     background: #073400;
@@ -183,11 +231,13 @@ form {
     border: 3px solid black;
 }
 
+/* Sets the size and color for the social media icons. */
 .social-footer .social-footer-icons .fa {
     font-size: 40px;
     color: white;
 }
 
+/* Sets the parameters for the portfolio page outer grid container. */
 .outer-grid {
     display: flex;
     flex-wrap: wrap;
@@ -198,18 +248,21 @@ form {
     align-items: center;
 }
 
+/* Sets the parameters for the portfolio page inner grid container. */
 .inner-grid {
     flex: 25%;
     max-width: 25%;
     padding: 10px;
 }
 
+/* Gives images in the portfolio page container a size and nice looking border. */
 .inner-grid img {
     margin-top: 15px;
     width: 100%;
     border: 2px solid black;
 }
 
+/* Media query for changing the grid size for smaller screens. */
 @media screen and (max-width: 800px) {
     .inner-grid {
         flex: 50%;
@@ -217,6 +270,7 @@ form {
     }
 }
 
+/* Media query for changing the grid size for larger screens. */
 @media screen and (max-width: 600px) {
     .inner-grid {
         flex: 100%;
@@ -224,11 +278,13 @@ form {
     }
 }
 
+/* Sets the color and font size for the names in the social media footer. */
 label[for="Kyle"]{
     color: white;
     font-size: 30px;
 }
 
+/* Sets the color and font size for the names in the social media footer. */
 label[for="Nicole"] {
     color: white;
     font-size: 30px;

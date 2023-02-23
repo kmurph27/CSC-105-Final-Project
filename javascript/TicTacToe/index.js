@@ -1,3 +1,19 @@
+/*################################################################################*/
+/*# **JavaScript for Gender Reveal Animation**                                   #*/
+/*#     Description: This is the primary code for the gender reveal animation    #*/
+/*#     and is what makes and runs all the images.                               #*/
+/*#                                                                              #*/
+/*#     File: script.js                                                          #*/
+/*#     Author : Kyle Murphy                                                     #*/
+/*#     Notes and Assistance: Brian Hart, GitHub, YouTube, & JavaScript Academy  #*/
+/*#                                                                              #*/
+/*################################################################################*/
+
+
+/*################################################################################*/
+/*#                                  Variables                                   #*/
+/*################################################################################*/
+
 // Allows for the instance of a button click with the mouse so that
 // nothings is executed before is should be. Also utilizes the DOM api
 // queryselector in order to return the specific element using the selector.
@@ -41,6 +57,10 @@ window.addEventListener('DOMContentLoaded', () => {
         [0, 4, 8],
         [2, 4, 6],
     ];
+
+    /*################################################################################*/
+    /*#                                  Functions                                   #*/
+    /*################################################################################*/
 
     // Function to check to see if the game is over or not.
     function result_check() {

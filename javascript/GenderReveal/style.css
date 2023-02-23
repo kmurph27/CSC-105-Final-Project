@@ -1,8 +1,27 @@
+/*################################################################################*/
+/*# **Style Sheet for Gender Reveal Animation**                                  #*/
+/*#     Description: This is the style sheet that styles and sets all of the     #*/
+/*#     parameters for the gender reveal animation                               #*/
+/*#                                                                              #*/
+/*#     File: styles.css                                                         #*/
+/*#     Author : Kyle Murphy                                                     #*/
+/*#     Notes and Assistance: W3Schools, Brian Hart, GitHub - jaysonhaddon       #*/
+/*#                                                                              #*/
+/*################################################################################*/
+
+/* Imports the fonts I used for use throughout the website. */
+@font-face {
+    font-family: 'Super Mario DS (Original)';
+    src: "css/super-mario-ds-original.ttf";
+}
+
+/* Sizes the dispay box and sets the font. */
 * {
   box-sizing: border-box;
   font-family: "Super Mario DS (Original)",Broadway;
 }
 
+/* Sets the parameters for the veiwing area and centers everything. */
 body {
   margin: 0;
   padding: 0;
@@ -17,10 +36,12 @@ body {
   overflow: hidden;
 }
 
+/* Changes the background color to white when activated. */
 .active {
     background-color: white;
 }
 
+/* Sets the parameters for the main area of viewing and centers everything. */
 .main {
     display: flex;
     flex-direction: column;
@@ -32,15 +53,18 @@ body {
     left: 0;
 }
 
+/* Centers the main header. */
 .main h1 {
   text-align: center;
 }
 
+/* Setting the spacing for the banner. */
 .banner {
   margin: 0;
   padding: 0;
 }
 
+/* Set the parameter for the actual reveal button and where it sits. */
 .reveal-btn {
   color: white;
   background-color: #545454;
@@ -53,10 +77,12 @@ body {
   text-align: center;
 }
 
+/* Sets the scaling for the size of the button when you hover over. */
 .reveal-btn:hover {
   transform: scale(1.25);
 }
 
+/* Sets the parameters for how the image is revealed. */
 .reveal-img {
     opacity: 0;
     width: 100vw;
@@ -64,16 +90,19 @@ body {
     left: 0;
 }
 
+/* Set the positioning to the the center of page and allows balloons to easily transition in. */
 .balloon {
   position: absolute;
   transition: transform 6s ease-in;
   z-index: -10;
 }
 
+/* While the balloons are active, they will float up from the bottom of the screen. */
 .balloon-active {
   transform: translateY(-1000px);
 }
 
+/* Media query for changing the size to adjust for different size screens. */
 @media only screen and (max-width: 600px) {
   .balloon {
     scale: 70%;

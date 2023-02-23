@@ -1,29 +1,47 @@
+<!--################################################################################-->
+<!--# **Index Page for Gender Reveal Animation**                                   #-->
+<!--#   Description: This the html page which brings together the css page and     #-->
+<!--#   the java script page.                                                      #-->
+<!--#                                                                              #-->
+<!--#   File: index.html                                                           #-->
+<!--#   Author : Kyle Murphy                                                       #-->
+<!--#   Notes and Assistance: W3Schools, Brian Hart, GitHub - jaysonhaddon         #-->
+<!--#                                                                              #-->
+<!--################################################################################-->
+
+
+<!--################################################################################-->
+<!--#                             Doctype and Headers                              #-->
+<!--################################################################################-->
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head> 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
     <title>Murphy Gender Reveal</title>
-  </head>
-  <body>
+</head>
+
+<!--################################################################################-->
+<!--#                                     Body                                     #-->
+<!--################################################################################-->
+
+<body>
+    <!-- Creates the gender reaveal page from the button click below utilizing javascript. -->
     <div class="main">
-      <picture id="picture">
-        <source
-          id="pic-source"
-          media="(min-width: 800px)"
-          srcset="./img/main.png"
-        />
-        <img
-          id="main-banner"
-          class="banner"
-          src="./img/main_small.png"
-          alt="Gender Reveal Banner"
-        />
-      </picture>
-      <button class="reveal-btn" type="button">Reveal</button>
+        <picture id="picture">
+            <source id="pic-source"
+                    media="(min-width: 800px)"
+                    srcset="./img/main.png" />
+            <img id="main-banner"
+                 class="banner"
+                 src="./img/main_small.png"
+                 alt="Gender Reveal Banner" />
+        </picture>
+        <button class="reveal-btn" type="button">Reveal</button>
     </div>
-  </body>
+</body>
 </html>

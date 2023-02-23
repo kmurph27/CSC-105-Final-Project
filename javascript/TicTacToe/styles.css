@@ -1,3 +1,14 @@
+/*################################################################################*/
+/*# **Style Sheet for Tic-Tac-Toe**                                              #*/
+/*#     Description: This is the style sheet that styles and sets all of the     #*/
+/*#     parameters for the Tic-Tac-Toe game.                                     #*/
+/*#                                                                              #*/
+/*#     File: styles.css                                                         #*/
+/*#     Author : Kyle Murphy                                                     #*/
+/*#     Notes and Assistance: Brian Hart, GitHub, YouTube, & JavaScript Academy  #*/
+/*#                                                                              #*/
+/*################################################################################*/
+
 /* Gets rid of the browsers generic margins and padding */
 * {
     padding: 0;
